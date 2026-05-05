@@ -29,6 +29,6 @@ app.get('/contato', (req, res) => {
 });
 
 // Inicia o servidor
-app.listen(3400, () => {
+app.listen(3400, '0.0.0.0'() => {
     console.log('Servidor rodando em http://localhost:80');
 });
